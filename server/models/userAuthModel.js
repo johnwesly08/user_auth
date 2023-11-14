@@ -1,7 +1,7 @@
 const {default: mongoose, Schema} = require('mongoose');
 
 const AuthSchema = new Schema({
-    username: {
+    uname: {
         type: String,
         require: true
     },
@@ -9,7 +9,7 @@ const AuthSchema = new Schema({
         type: String,
         require: true
     },
-    password: {
+    pwd: {
         type: String,
         require: true
     }
